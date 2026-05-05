@@ -6,22 +6,20 @@ Este repositorio demuestra la implementación del patrón de diseño **Clean Arc
 
 El código está organizado siguiendo la regla de dependencia de Clean Architecture, donde las capas internas no tienen conocimiento de las capas externas:
 
-\`\`\`text
 tarea2-clean-architecture/
 ├── src/
-│ ├── domain/ # Capa 1: Entidades del Negocio
-│ │ └── Message.js
-│ ├── application/ # Capa 2: Casos de Uso
-│ │ └── GetHelloUseCase.js
-│ ├── interfaces/ # Capa 3: Controladores y Adaptadores
-│ │ └── HelloController.js
-│ └── infrastructure/ # Capa 4: Frameworks, Servidor y Rutas
-│ ├── routes.js
-│ └── server.js
-├── app.js # Punto de entrada de la aplicación
-├── package.json # Dependencias del proyecto
-└── README.md # Documentación
-\`\`\`
+│   ├── domain/             # Capa 1: Entidades del Negocio
+│   │   └── Message.js
+│   ├── application/        # Capa 2: Casos de Uso
+│   │   └── GetHelloUseCase.js
+│   ├── interfaces/         # Capa 3: Controladores y Adaptadores
+│   │   └── HelloController.js
+│   └── infrastructure/     # Capa 4: Frameworks, Servidor y Rutas
+│       ├── routes.js
+│       └── server.js
+├── app.js                  # Punto de entrada de la aplicación
+├── package.json            # Dependencias del proyecto
+└── README.md               # Documentación
 
 ## ¿Qué es Clean Architecture?
 
