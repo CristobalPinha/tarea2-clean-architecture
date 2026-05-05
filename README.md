@@ -5,7 +5,7 @@ Este repositorio demuestra la implementación del patrón de diseño **Clean Arc
 ## Estructura del Proyecto
 
 El código está organizado siguiendo la regla de dependencia de Clean Architecture, donde las capas internas no tienen conocimiento de las capas externas:
-
+```
 tarea2-clean-architecture/
 ├── src/
 │   ├── domain/             # Capa 1: Entidades del Negocio
@@ -20,6 +20,7 @@ tarea2-clean-architecture/
 ├── app.js                  # Punto de entrada de la aplicación
 ├── package.json            # Dependencias del proyecto
 └── README.md               # Documentación
+```
 
 ## ¿Qué es Clean Architecture?
 
