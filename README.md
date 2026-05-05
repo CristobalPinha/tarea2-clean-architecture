@@ -17,3 +17,7 @@ Esta aplicación encapsula el proyecto en las siguientes capas:
 1. Instalar dependencias: `npm install`
 2. Levantar el proyecto: `node app.js`
 3. Probar en el navegador o Postman: `http://localhost:3000/api/hello`
+
+## Estudiantes:
+Cristobal Piña
+Victor Salazar
